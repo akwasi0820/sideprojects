@@ -1,0 +1,72 @@
+* {
+    background-color: gray;
+    color: white;
+    font-family: helvetica;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    gap: 10px;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    pointer-events: none;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.buttons .no, .buttons .yes {
+    font-size: 22px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.buttons .no {
+    background-color: red;
+}
+
+.buttons .yes {
+    background-color: green;
+}
+
+span {
+    display: block;
+    color: yellow;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.reset {
+    border: none;
+    font-size: 18px;
+}
+
+.hide {
+    border: none;
+    font-size: 20px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    pointer-events: all;
+}
+
+
+/* THE IMPACT OF TECHNOLOGY IN CODING */

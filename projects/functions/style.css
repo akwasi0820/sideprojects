@@ -1,0 +1,30 @@
+* {
+    background-color: #222;
+    font-family: helvetica;
+    font-weight: bold;
+    /* background: linear-gradient(40deg, silver 30%, yellow 60%, gray 90%) */
+}
+
+.container {
+    height: 100dvh;
+    width: 100dvw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    font-size: 8rem;
+    padding: 200px 300px;
+    border-radius: 100px;
+    border: 10px solid white;
+    background: #444;
+    color: white;
+    transition: 0.5s ease-out;
+}
+
+button:hover {
+    box-shadow: 0 0 50px 0 #c500c5;
+    transform: translateY(-5px);
+    border-color: #ff00ff;
+}

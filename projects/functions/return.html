@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Calculator?</title>
+    <style>
+      html {
+        width: 100dvw;
+        height: 100dvh;
+        background: linear-gradient(315deg, green, yellow);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      input {
+        font-size: 2em;
+        border: 2px solid blue;
+        border-radius: 5px;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1 style="color: white; font-family: helvetica;">3 Piece Calculator</h1>
+    <input class="numberInput" type="text" placeholder="Number Goes Here" />
+    <p></p>
+
+    <script>
+      const input = document.querySelector(".numberInput");
+      const para = document.querySelector("p");
+
+      function squared(num) {
+        return num * num;
+      }
+
+      function cubed(num) {
+        return num * num * num
+      }
+
+      function factorial(num) {
+        if (num < 0) return undefined;
+        if (num === 0) return 1;
+        let x = num - 1;
+        while (x > 1) {
+            num *= x;
+            x--;
+        }
+        return num;
+      }
+
+      input.addEventListener("change", () => {
+        const num = parseFloat(input.value);
+        if (isNaN(num)) {
+            para.textContent = "You need to enter a number";
+            input.style.borderColor = "red"
+            para.style.backgroundColor = "darkred"
+            para.style.color = "white"
+            para.style.padding = "5px 10px"
+            para.style.textAlign = "center"
+            para.style.border = "2px solid antiquewhite"
+            para.style.borderRadius = "8px"
+        } else {
+            para.textContent = `${num} squared is ${squared(num)}, `
+            para.textContent += `${num} cubed is ${cubed(num)}, `
+            para.textContent += `${num} factorial is ${factorial(num)}.`
+            input.style.borderColor = "blue"
+            para.style.backgroundColor = "black"
+            para.style.color = "white"
+            para.style.padding = "5px 10px"
+            para.style.textAlign = "center"
+            para.style.border = "2px solid antiquewhite"
+            para.style.borderRadius = "8px"
+        }
+      })
+    </script>
+  </body>
+</html>

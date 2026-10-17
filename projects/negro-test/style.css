@@ -1,0 +1,91 @@
+html {
+    border: 8px solid antiquewhite;
+    height: 100vh;
+}
+
+* {
+    background-color: gray;
+    font-family: helvetica;
+    color: white;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    flex-flow: row wrap;
+    width: 700px;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+    border: 10px solid antiquewhite;
+    border-radius: 20px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 120px;
+    flex-wrap: wrap;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3px 5px;
+    background-color: darkslategray
+}
+
+p {
+    text-align: center;
+    width: 250px;
+}
+
+.submit {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.submitb {
+    background-color: green;
+    width: 175px
+}
+
+.option.one {
+    border-radius: 10px 10px 0 0;
+}
+
+.option.two {
+    border-radius: 10px 10px 0 0;
+}
+
+.option.seven {
+    border-radius: 0 0 10px 10px;
+}
+
+.option.eight {
+    border-radius: 0 0 10px 10px;
+}
+
