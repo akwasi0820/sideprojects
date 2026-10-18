@@ -18,7 +18,8 @@ body {
     background-color: #600;
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    filter: drop-shadow(0 0 10px);
 }
 
 .header ul, .header li {
@@ -115,7 +116,12 @@ a {
     justify-content: center;
     border: 5px #3882f6 solid;
     border-radius: 20px;
-    font-size: 100px
+    font-size: 100px;
+    transition: 0.3s ease-in-out;
+}
+
+.box:hover {
+    transform: translateY(-10px);
 }
 
 .info {
@@ -140,7 +146,7 @@ a {
 .side {
     display: flex;
     flex-direction: row-reverse;
-    font-size: 17px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -201,7 +207,7 @@ a {
 }
 
 .footer {
-    background-color: #1f2937;
+    background-color: #400;
     display: flex;
     align-items: center;
     justify-content: center;
