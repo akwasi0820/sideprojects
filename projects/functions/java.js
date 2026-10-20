@@ -1,10 +1,6 @@
-// const btn = document.querySelector(".btn1");
-// btn.addEventListener("click", exist)
+const btn = document.querySelector(".btn1");
+btn.addEventListener("click", naur)
 
-function exist(reason = "none") {
-    reason = "reason for existing: " + reason;
-    alert(reason)
+function naur() {
+    alert("ur kinda big.....")
 }
-
-exist()
-

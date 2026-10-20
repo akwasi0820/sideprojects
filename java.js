@@ -8,10 +8,10 @@ const sec5h = document.querySelector(".sec5h");
 const sec5p = document.querySelector(".sec5p");
 const sec5b = document.querySelector(".sec5b")
 
-let guesscount = 0;
+let count = 0;
 
-visit.addEventListener("click", redir1)
 sec5b.addEventListener("click", troll)
+visit.addEventListener("click", redir1)
 bx1.addEventListener("click", redir2)
 bx2.addEventListener("click", redir3)
 bx3.addEventListener("click", redir4)
@@ -34,21 +34,20 @@ function redir5() {
     window.location.href = "./projects/functions/index.html"
 }
 function redir6() {
-    window.location.href = "./projects/odin-recipies/index.html"
+    window.location.href = "./projects/odin-recipes/index.html"
 }
 
 function troll() {
-    guesscount++
-
-    if (guesscount === 1) {
+    count++
+    if (count === 1) {
         sec5h.textContent = "DO NOT OPEN!!!"
         sec5p.textContent = "Thats On Me For Putting It In Small Text"
     }
-    if (guesscount === 2) {
+    if (count === 2) {
         sec5h.textContent = "Try It Again See What Happens."
         sec5p.textContent = "Its Really Simple Directions"
     }
-    if (guesscount >= 3) {
+    if (count >= 3) {
         sec5h.textContent = "Fuc."
         sec5p.textContent = "btw that was ai...🌚"
         window.location.href = "./projects/index.html"
