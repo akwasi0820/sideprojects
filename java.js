@@ -1,20 +1,8 @@
+const visit = document.querySelector(".sec2b")
 const bx1 = document.querySelector(".box", ".one");
 
-bx1.addEventListener("click", hapiness)
+visit.addEventListener("click", redir1)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-function hapiness(happy) {
-    alert("what happiness...")
+function redir1() {
+    window.location.href = "./projects/functions/return.html", ""
 }
