@@ -216,3 +216,8 @@ a {
   color: #f9faf8;
   height: 11.1vh;
 }
+
+.placeholder {
+  width: 625px;
+  height: auto;
+}

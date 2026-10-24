@@ -19,7 +19,7 @@ bx4.addEventListener("click", redir5);
 bx5.addEventListener("click", redir6);
 
 function redir1() {
-  window.location.href = "./projects/functions/return.html";
+  window.location.href = "./projects/rockpaperscissors/index.html";
 }
 function redir2() {
   window.location.href = "./projects/html-playground/index.html";
@@ -34,7 +34,7 @@ function redir5() {
   window.location.href = "./projects/functions/index.html";
 }
 function redir6() {
-  window.location.href = "./projects/odin-recipes/index.html";
+  window.location.href = "./projects/functions/return.html";
 }
 
 function troll() {
