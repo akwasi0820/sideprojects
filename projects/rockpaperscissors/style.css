@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: helvetica;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border: 10px double burlywood;
+  padding: 50px;
+  border-radius: 30px;
+  width: 21rem;
+}
+
+button {
+  font-size: 1em;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+
+.gamestart {
+  background-color: skyblue;
+  padding: 5px 20px;
+}
+
+.score {
+  display: flex;
+  gap: 30px;
+  font-size: 100px;
+}
+
+.humanscore,
+.compscore,
+.score p {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.directions {
+  font-size: 15px;
+  text-align: center;
+  margin: 0;
+  padding: 5px 20px;
+}
+
+.dir1 {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: antiquewhite;
+}
+
+.dir2 {
+  border: 2px solid blue;
+  border-radius: 8px;
+}
+
+.labels {
+  display: flex;
+  gap: 50px;
+  font-size: 18px;
+  margin-bottom: 0px;
+  width: 20rem;
+  justify-content: center;
+  align-items: center;
+  background-color: burlywood;
+  color: white;
+}
+
+.comp,
+.human {
+  margin: 10px;
+  text-align: center;
+}
+
+.current {
+  margin: 0;
+  text-align: center;
+}
+
+.com1 {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: salmon;
+}
+
+.com2 {
+  border: 2px solid blue;
+  border-radius: 8px;
+}
+
+.computer {
+  font-size: 15px;
+  text-align: center;
+  margin: 0;
+  padding: 5px 20px;
+}
