@@ -44,12 +44,12 @@ function troll() {
     sec5p.textContent = "Thats On Me For Putting It In Small Text";
   }
   if (count === 2) {
-    sec5h.textContent = "Try It Again See What Happens.";
-    sec5p.textContent = "Its Really Simple Directions";
+    sec5h.textContent = "Bad Things Are Going To Happen";
+    sec5p.textContent = "Im Warning You...";
   }
   if (count >= 3) {
-    sec5h.textContent = "Fuc.";
-    sec5p.textContent = "btw that was ai...🌚";
-    window.location.href = "./projects/index.html";
+    sec5h.textContent = "I Told You Soooo";
+    sec5p.textContent = "did i or did i not...";
+    window.location.href = "./projects/CRASH/index.html";
   }
 }
